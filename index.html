@@ -1,3 +1,112 @@
 <html>
-<body>blaa</body>
+<head>
+
+
+<div class = "container">
+  <h1>Are you ready </h1>
+  <h1>?</h1>
+</div>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title> A little Maths Game</title>
+  <style>
+
+
+.correct {
+    font-family: "Chelsey Market", helvetica, sans-serif;
+    color:green;
+    font-style: bold;
+}
+
+.incorrect {
+           font-family: "Chelsey Market", helvetica, sans-serif;
+           color:red;
+           font-style:bold;
+}
+
+</style>
+</head>
+<body>
+<script>
+ document.write("<h1>A simple Maths Game </h1>");
+
+var question;
+var userAnswer;
+var correctAnswer;
+
+
+question=" 8+7=..";
+userAnswer=prompt (question);
+correctAnswer=8+7;
+
+
+if (userAnswer==correctAnswer) {
+    document.writeln(question + userAnswer + "<span class='correct'>&checkmark; Answer is correct. </span><br>");
+}
+else { document.writeln(question + userAnswer +"<span class='incorrect'>&cross; Answer is incorrect.</span> The correct answer is "+ correctAnswer+"<br>");
+}
+
+
+question=" 4+7=..";
+userAnswer=prompt (question);
+correctAnswer=4+7;
+
+if (userAnswer==correctAnswer) {
+    document.writeln(question + userAnswer + "<span class='correct'>&checkmark; Answer is correct. </span><br>");
+}
+else { document.writeln(question + userAnswer +"<span class='incorrect'>&cross; Answer is incorrect.</span> The correct answer is "+ correctAnswer+"<br>");
+}
+
+
+
+
+question=" 10*3=..";
+userAnswer=prompt (question);
+correctAnswer=10*3;
+
+if (userAnswer==correctAnswer) {
+    document.writeln(question + userAnswer + "<span class='correct'>&checkmark; Answer is correct. </span><br>");
+}
+else { document.writeln(question + userAnswer +"<span class='incorrect'>&cross; Answer is incorrect.</span> The correct answer is "+ correctAnswer+"<br>");
+}
+
+
+
+
+question=" 45/5=..";
+userAnswer=prompt (question);
+correctAnswer=45/5;
+
+if (userAnswer==correctAnswer) {
+    document.writeln(question + userAnswer + "<span class='correct'>&checkmark; Answer is correct. </span><br>");
+}
+else { document.writeln(question + userAnswer +"<span class='incorrect'>&cross; Answer is incorrect.</span> The correct answer is "+ correctAnswer+"<br>");
+}
+
+
+question=" 10+3=..";
+userAnswer=prompt (question);
+correctAnswer=10+3;
+
+if (userAnswer==correctAnswer) {
+    document.writeln(question + userAnswer + "<span class='correct'>&checkmark; Answer is correct. </span><br>");
+}
+else { document.writeln(question + userAnswer +"<span class='incorrect'>&cross; Answer is incorrect.</span> The correct answer is "+ correctAnswer+"<br>");
+}
+
+
+
+question=" 1576-1=..";
+userAnswer=prompt (question);
+correctAnswer=1576-1;
+
+if (userAnswer==correctAnswer) {
+    document.writeln(question + userAnswer + "<span class='correct'>&checkmark; Answer is correct. </span><br>");
+}
+else { document.writeln(question + userAnswer +"<span class='incorrect'>&cross; Answer is incorrect.</span> The correct answer is "+ correctAnswer+"<br>");
+}
+
+
+
+</script>
+</body>
 </html>
